@@ -1,0 +1,77 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+}
+
+button {
+    border-radius: 6px;
+}
+
+hr {
+    color: black;
+    width: 400px;
+}
+
+.Content{
+    height: 750px;
+    width: 990px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.Content h1, button {
+    color: lightseagreen;
+}
+
+h1 {
+    margin-bottom: 15px !important;
+}
+
+label {
+    background-color: lightseagreen !important;
+}
+
+img {
+    height: 300px;
+    width: 300px;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+}
+
+.input___input {
+    flex: 1;
+    height: 24px;
+    width: 75%;
+    border-radius: 15px;
+    display: inline-block;
+}
+
+.input___button{
+    height: 24px;
+    padding: 0;
+    margin: 0;
+    width: 25%;
+    border-radius: 6px;
+}
+
+.content___button {
+    padding: 5px;
+    margin: 5px;
+    border-radius: 6px;
+    background-color: lightseagreen !important;
+}
+
+input[type='file']{
+    color:blue;
+    font-size:25px;
+    display: none;
+  }
+
+body {
+    background-color: rgb(163, 255, 250);
+}
